@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package api;
+
+message Empty {
+}
+
+message CreateUuidResp {
+    int64 int64 = 1;
+    string str = 2;
+}
+
+service Uuid {
+    rpc CreateUuid (Empty) returns (CreateUuidResp) {
+    }
+}
