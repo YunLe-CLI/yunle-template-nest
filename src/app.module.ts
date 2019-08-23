@@ -7,9 +7,11 @@ import { V1Module } from './api/v1/v1.module';
 
 @Module({
   imports: [
-    // GraphQLModule.forRoot({
-    //   autoSchemaFile: 'schema.gql',
-    // }),
+    GraphQLModule.forRoot({
+      autoSchemaFile: 'schema.gql',
+      debug: false,
+      playground: true,
+    }),
     MicroModuleExample,
     V1Module,
   ],

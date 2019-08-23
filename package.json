@@ -29,28 +29,30 @@
     "@yunle-micro/example": "git+https://github.com/YunLe-CLI/yunle-template-nest-micro.git",
     "apollo-server-express": "^2.8.2",
     "cors": "^2.8.5",
-    "graphql": "^14.4.2",
+    "graphql": "^14.5.0",
     "graphql-tools": "^4.0.5",
     "grpc": "^1.23.2",
+    "lodash": "^4.17.15",
     "reflect-metadata": "^0.1.12",
-    "rimraf": "^2.6.2",
-    "rxjs": "^6.3.3"
+    "rimraf": "^3.0.0",
+    "rxjs": "^6.3.3",
+    "type-graphql": "^0.17.5"
   },
   "devDependencies": {
     "@nestjs/testing": "^6.0.0",
-    "@types/express": "4.16.1",
-    "@types/jest": "24.0.11",
-    "@types/node": "11.13.4",
-    "@types/supertest": "2.0.7",
-    "jest": "24.7.1",
-    "prettier": "1.17.0",
+    "@types/express": "^4.17.1",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
     "supertest": "4.0.2",
     "ts-jest": "24.0.2",
-    "ts-node": "8.1.0",
-    "tsc-watch": "2.2.1",
+    "ts-node": "^8.3.0",
+    "tsc-watch": "^2.4.0",
     "tsconfig-paths": "3.8.0",
-    "tslint": "5.16.0",
-    "typescript": "3.4.3"
+    "tslint": "^5.19.0",
+    "typescript": "^3.5.3"
   },
   "jest": {
     "moduleFileExtensions": [
