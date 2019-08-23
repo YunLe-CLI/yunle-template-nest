@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { MicroUsersModule } from './micro-users/micro-users.module';
+import { MicroModule as MicroModuleExample } from '@micro/example';
 import { V1Module } from './api/v1/v1.module';
 
 @Module({
@@ -10,7 +10,7 @@ import { V1Module } from './api/v1/v1.module';
     // GraphQLModule.forRoot({
     //   autoSchemaFile: 'schema.gql',
     // }),
-    MicroUsersModule,
+    MicroModuleExample,
     V1Module,
   ],
   controllers: [AppController],

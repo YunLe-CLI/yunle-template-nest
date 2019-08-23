@@ -1,14 +1,14 @@
 import { Injectable } from '@nestjs/common';
-import { MicroUsersService } from '../../micro-users/micro-users.service';
+import { MicroService as MicroServiceExample } from '@micro/example/dist/micro.service';
 
 @Injectable()
 export class V1Service {
   constructor(
-    private readonly microUsersService: MicroUsersService,
+    private readonly microServiceExample: MicroServiceExample,
   ) {}
 
   async getHello() {
-    const user = await this.microUsersService.getHello();
+    const user = await this.microServiceExample.getHello();
     return user;
   }
 
