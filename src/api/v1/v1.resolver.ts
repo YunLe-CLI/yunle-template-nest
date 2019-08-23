@@ -2,7 +2,7 @@ import { Resolver, Args, Query, Mutation } from '@nestjs/graphql';
 import * as _ from 'lodash';
 import { V1Service } from './v1.service';
 import { ExampleType } from './graphqls/example.type';
-import { IMicroInput as IMicroInputExample } from '@yunle-micro/example/dist';
+import { IMicroInput as IMicroInputExample } from '@yunle-micro/example';
 
 @Resolver('v1')
 export class V1Resolver {
