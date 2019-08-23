@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { MicroModule as MicroModuleExample } from '@micro/example';
+import { MicroModule as MicroModuleExample } from '@yunle-micro/example';
 import { V1Module } from './api/v1/v1.module';
 
 @Module({

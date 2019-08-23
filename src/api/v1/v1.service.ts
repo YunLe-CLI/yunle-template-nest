@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { MicroService as MicroServiceExample } from '@micro/example/dist/micro.service';
+import { MicroService as MicroServiceExample } from '@yunle-micro/example/dist/micro.service';
 
 @Injectable()
 export class V1Service {
