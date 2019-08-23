@@ -1,4 +1,4 @@
-nodejs BFF服务端项目(让你开发BFF 一套，**牛奶香浓浓,丝般感受** )
+nodejs BFF中间层项目(让你开发BFF 一套，**牛奶香浓浓,丝般感受** )
 > 1. nest.js
 > 2. GRPC
 > 3. graphql
